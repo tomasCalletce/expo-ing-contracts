@@ -5,5 +5,9 @@ libs = ["lib"]
 
 remappings = [
     "@solmate-tokens/=lib/solmate/src/tokens/",
+    "@openzeppelin/=lib/openzeppelin-contracts/contracts",
 ]
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+# Example of deploy command 
+# forge script script/Vault.s.sol:VaultDeploy --rpc-url https://eth-sepolia.g.alchemy.com/v2/rbk5kkCeGT8ho-Q-5aTYCNInHrdFpAXQ --broadcast --verify -vvvv
